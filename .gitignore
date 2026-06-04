@@ -1,0 +1,48 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+catboost_info/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Local database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Large Datasets and Data files (Prevents pushing raw 160MB+ files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+
+# Frontend dependencies and build outputs
+**/node_modules/
+**/dist/
+**/build/
+.eslintcache
+
+# System files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Obsolete / oversized model pickles (main ensemble models are kept)
+models/preprocessor.pkl
+models/lightgbm_model.pkl

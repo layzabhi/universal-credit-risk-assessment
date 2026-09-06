@@ -1,6 +1,6 @@
 # Universal Credit Risk Intelligence Platform
 
-An enterprise-grade, high-fidelity AI system for unified credit risk assessment, portfolio analytics, model governance, and explainable underwriting.
+A machine learning platform for unified credit risk assessment across heterogeneous datasets, combining automated data ingestion, feature normalization, calibrated ensemble modeling, SHAP explainability, underwriting reports, and portfolio-level analysis.
 
 ```mermaid
 graph TD
